@@ -3,7 +3,7 @@
 A simple webserver and webpage configuration for an almost-static website that can handle forms.
 
 ## Introduction
-I recently decided that it made sense to move away from web frameworks like NextJS and RedwoodJS for my simple little one-page websites. It is much easier to download an HTML5 static webpage template and tweak it than try to get the latest version of a web framework up and running, especially since web frameworks love to introduce breaking changes between major release, and move everything around so you spend most of your time playing "where is it now?"
+I recently decided that it made sense to move away from web frameworks like NextJS and RedwoodJS for my simple little one-page websites. It is much easier to download an HTML5 static webpage template and tweak it than try to get the latest version of a web framework up and running, especially as web frameworks love to introduce breaking changes between major releases and move everything around so you spend most of your time playing "where is it now?"
 
 You will find lots of free responsive static website templates if you search for "[responsive static website templates](https://www.google.com/search?q=responsive+static+website+templates)", which you can download, edit in a text editor, and then serve up using a static webserver like [Nginx](https://www.nginx.com/resources/glossary/nginx/).
 
@@ -28,7 +28,7 @@ After several days of research I had to conclude that a true static website was 
 
 We lose the benefit of not having a process running on the server, but we gain the capability for form parsing.
 
-I settled on appending the information returned by the form to a text file called `signups.txt`. This means we avoid the problem databases have, namely input sanitation, and hence no risk SQL injection attacks.
+I settled on appending the information returned by the form to a text file called `signups.txt`. This means we avoid the problem databases have, namely input sanitation, and hence there is no risk of SQL injection attacks.
 
 ## Installation
 I have tested this with NodeJS version 18.19.1.
@@ -45,4 +45,12 @@ The `index.html` file is a sample one-page website, and the `subscribed.html` fi
 
 The web server is implemented by a short JavaScript file, `server.js`.
 
-You can either specify the port for your server in `server.js` or by setting it using the bash environment variable `PORT`.
+You can either specify the port for your server in `server.js` or by setting it using the bash environment variable `PORT`, for example, in the `run.sh` script.
+
+## Examples
+I use this template for the following websites that I host on my home server:
+
+[thinklair.com](https://thinklair.com)
+[www.nomath.tech](https://www.nomath.tech)
+[www.lobotomy.fi](https://www.lobotomy.fi)
+
