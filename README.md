@@ -51,6 +51,8 @@ You can either specify the port for your server in `server.js` or by setting it 
 I use this template for the following websites that I host on my home server:
 
 [thinklair.com](https://thinklair.com)
+
 [www.nomath.tech](https://www.nomath.tech)
+
 [www.lobotomy.fi](https://www.lobotomy.fi)
 
