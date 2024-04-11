@@ -1,4 +1,4 @@
-#Almost-Static Website
+# Almost-Static Website
 
 A simple webserver and webpage configuration for an almost-static website that can handle forms.
 
@@ -33,7 +33,7 @@ I settled on appending the information returned by the form to a text file calle
 ## Installation
 I have tested this with NodeJS version 18.19.1.
 
-1. Clone the repository with `git clone `
+1. Clone the repository with `git clone https://github.com/kf106/almost-static.git`
 2. Change to the cloned repository folder with `cd almost-static`
 3. Run `npm install` to install the required NodeJS packages
 4. Start the server with `./run.sh`
